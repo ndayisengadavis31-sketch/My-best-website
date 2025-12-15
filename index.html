@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ndayisenga's Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER/NAVIGATION -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ndayisenga</div>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-bar" placeholder="Search portfolio...">
+                <button id="searchBtn" class="search-btn">🔍</button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#inspirations">Inspirations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SEARCH RESULTS SECTION -->
+    <div id="searchResults" class="search-results hidden">
+        <div class="search-results-content">
+            <button id="closeSearch" class="close-search">✕</button>
+            <h2>Search Results</h2>
+            <div id="resultsContainer" class="results-container"></div>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+          <img src="https://i.postimg.cc/1XJRMTzR/My-photo.png" alt="Profile picture" class="profile-pic">
+        <h1>Hello, I'm Ndayisenga Shema Davis</h1>
+    
+            <h1>Welcome to My Web Development Portfolio</h1>
+            <p>Explore my journey in building beautiful and interactive websites</p>
+            <button class="cta-button">View My Work</button>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer and STEM enthusiast learning to create amazing digital experiences. Through the "Launch Your Website" STEM project, I've discovered my love for web development and I'm committed to mastering the skills needed to build professional websites. I believe in continuous learning and hands-on practice to grow as a developer. Beyond web development, I'm fascinated by design, mathematics, and science.</p>
+        </div>
+    </section>
+
+    <!-- WEB DEVELOPMENT SKILLS SECTION -->
+    <section id="skills" class="featured-work">
+        <h2>My Web Development Skills</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>HTML Structure</h3>
+                <p>Building semantic and well-organized HTML to create the foundation of websites. I understand how to structure content properly for accessibility and SEO.</p>
+            </div>
+            <div class="card">
+                <h3>CSS Styling</h3>
+                <p>Creating beautiful and responsive designs using CSS. I can style layouts, create animations, and ensure websites look great on all devices.</p>
+            </div>
+          
+            <div class="card">
+                <h3>JavaScript Interactivity</h3>
+                <p>Adding dynamic features and interactivity to websites using JavaScript. I can create engaging user experiences with interactive elements and functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MY WORKS SECTION -->
+    <section id="works" class="my-works">
+        <h2>My Works & Projects</h2>
+        <div class="works-container">
+            <div class="work-item">
+                <div class="work-icon">💻</div>
+                <h3>Launch Your Website</h3>
+                <p class="work-category">Web Development</p>
+                <p class="work-description">A comprehensive STEM project where I learned to build websites from scratch using HTML, CSS, and JavaScript. This project taught me the fundamentals of web development and how to create interactive, user-friendly websites.</p>
+                <p class="work-skills"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            </div>
+            <div class="work-item">
+                <div class="work-icon">🔬</div>
+                <h3>Cell Observation Project</h3>
+                <p class="work-category">Biology</p>
+                <p class="work-description">A hands-on biology project where I used a microscope to observe and study cells. This project deepened my understanding of cellular structures and the importance of scientific observation and documentation.</p>
+                <p class="work-skills"><strong>Tools:</strong> Microscope, Scientific Observation</p>
+            </div>
+            <div class="work-item">
+                <div class="work-icon">🔐</div>
+                <h3>Patterns & Caesar Cipher</h3>
+                <p class="work-category">Mathematics & Cryptography</p>
+                <p class="work-description">An exploration of mathematical patterns and the Caesar Cipher, a classical cryptography technique. This project taught me about pattern recognition, encryption, and how mathematics applies to real-world security and coding.</p>
+                <p class="work-skills"><strong>Topics:</strong> Pattern Recognition, Cryptography, Mathematical Logic</p>
+            </div>
+            <div class="work-item">
+                <div class="work-icon">🎨</div>
+                <h3>Computer & Phone Holder Design</h3>
+                <p class="work-category">Design & IT Fundamentals</p>
+                <p class="work-description">A practical design project where I applied IT fundamentals and design principles to create a functional computer and phone holder. This project taught me how to combine design thinking with technical knowledge to solve real-world problems.</p>
+                <p class="work-skills"><strong>Skills:</strong> Design Thinking, IT Fundamentals, Practical Problem Solving</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- INSPIRATIONS SECTION -->
+    <section id="inspirations" class="inspirations">
+        <h2>People Who Inspire Me</h2>
+        <div class="inspirations-container">
+            <div class="inspiration-card">
+                <div class="inspiration-icon">👨‍💻</div>
+                <h3>Jeffrey Zeldman</h3>
+                <p class="inspiration-title">Father of Millennial Web Design</p>
+                <p class="inspiration-description">Jeffrey Zeldman revolutionized web design and showed the world that the web could be beautiful, accessible, and user-friendly. His work inspires me to create websites that are not just functional, but also elegant and meaningful.</p>
+            </div>
+            <div class="inspiration-card">
+                <div class="inspiration-icon">🧑‍💼</div>
+                <h3>Ethan Marcotte</h3>
+                <p class="inspiration-title">Pioneer of Responsive Web Design</p>
+                <p class="inspiration-description">Ethan Marcotte coined and developed the principles of responsive web design in 2010, transforming how we build websites. His innovation inspires me to create websites that work beautifully on all devices and screen sizes.</p>
+            </div>
+        </div>
+    </section>
+  
+
+    <!-- FOOTER/CONTACT SECTION -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <h2>Get In Touch</h2>
+            <p>Email: ndayisenga.davis31@ntare-louisenlund.org</p>
+            <div class="social-links">
+                <a href="#">codepen:Ndayisenga Shema Davis</a>
+                <a href="#">GitHub:Ndayisenga31sketch</a>
+                <a href="#">Instagram:Ndayisenga Shema Davis </a>
+            </div>
+            <p class="copyright">© 2025 Ndayisenga's Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
